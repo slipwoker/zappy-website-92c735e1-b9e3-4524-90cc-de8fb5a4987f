@@ -813,7 +813,7 @@
 </script>
   
   <main id="main">
-    <section data-band-index="0" id="hero" class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim">
+    <section data-band-index="0" id="hero" class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim" data-zappy-animate="slide-up" data-zappy-anim-duration="0.7s" data-zappy-anim-delay="0s">
   <!-- Background image layer -->
   <div class="index-hero-bg" aria-hidden="true">
     <img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A calm, professional property inspection scene in warm natural light. A middle-aged Israeli male surveyor in smart casual attire carefully examines moisture damage on an interior wall of a residential apartment. He holds a professional moisture meter device, with a clipboard nearby. The room has warm beige plaster walls, soft afternoon light coming through a window. The atmosphere is trustworthy and understated — not glossy or corporate. Realistic photography style, shallow depth of field, earthy tones." width="1200" height="700" src="/assets/site-index-hero-image-1.webp" alt="שמאי רכוש מקצועי בודק נזקי רטיבות בדירה">
@@ -868,7 +868,7 @@
   </div>
 </section>
 
-<section data-band-index="1" id="services" class="index-services-section" data-layout-spec="בית-services" dir="rtl">
+<section data-band-index="1" id="services" class="index-services-section" data-layout-spec="בית-services" dir="rtl" data-zappy-animate="slide-up" data-zappy-anim-duration="0.7s" data-zappy-anim-delay="0.1s">
   <div class="index-services-container">
 
     <!-- Intro Block -->
@@ -959,7 +959,7 @@
 
 </section>
 
-<section data-band-index="2" id="benefits" class="index-benefits-section" data-layout-spec="בית-benefits" dir="rtl">
+<section data-band-index="2" id="benefits" class="index-benefits-section" data-layout-spec="בית-benefits" dir="rtl" data-zappy-animate="slide-up" data-zappy-anim-duration="0.7s" data-zappy-anim-delay="0.2s">
   <div class="index-benefits-container">
     <div class="index-benefits-layout">
 
@@ -1043,7 +1043,7 @@
 
 
 
-<section data-band-index="5" id="process" class="index-process-section" data-layout-spec="בית-process" dir="rtl">
+<section data-band-index="5" id="process" class="index-process-section" data-layout-spec="בית-process" dir="rtl" data-zappy-animate="slide-up" data-zappy-anim-duration="0.7s" data-zappy-anim-delay="0.30000000000000004s">
   <div class="index-process-container">
     <div class="index-process-header">
       <span class="index-process-label">
@@ -1154,7 +1154,7 @@
   </div>
 </section>
 
-<section data-band-index="6" id="contact" class="index-contact-section" data-layout-spec="בית-contact" dir="rtl">
+<section data-band-index="6" id="contact" class="index-contact-section" data-layout-spec="בית-contact" dir="rtl" data-zappy-animate="slide-up" data-zappy-anim-duration="0.7s" data-zappy-anim-delay="0.4s">
   <div class="index-contact-container">
 
     <!-- Right column: content -->
@@ -1333,7 +1333,26 @@
   </a>
   
   <div data-integration="accessibility:toolbar"></div>
-
+<script data-zappy-animation-observer="">(function() {
+  if (window.__zappyAnimObserver) return;
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        var el = entry.target;
+        var anim = el.getAttribute('data-zappy-animate');
+        var dur = el.getAttribute('data-zappy-anim-duration') || '0.6s';
+        var del = el.getAttribute('data-zappy-anim-delay') || '0s';
+        el.style.animation = 'zappy-' + anim + ' ' + dur + ' ' + del + ' ease forwards';
+        el.classList.add('zappy-animated');
+        observer.unobserve(el);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+  document.querySelectorAll('[data-zappy-animate]').forEach(function(el) {
+    observer.observe(el);
+  });
+  window.__zappyAnimObserver = observer;
+})();</script>
     <script src="/script.js"></script>
 
     <script id="zappy-mobile-submenu-script">
