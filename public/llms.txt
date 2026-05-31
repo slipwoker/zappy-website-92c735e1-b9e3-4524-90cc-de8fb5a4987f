@@ -30,6 +30,7 @@ Information about WCAG compliance and accessibility features.
 
 - Phone: 050-4626493
 - Phone (tel): tel:0504626493
+- Address: קריית אתא
 
 ### Contact form
 - URL: https://example.com
