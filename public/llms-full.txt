@@ -2,13 +2,13 @@
 
 אני מעוניין להקים אתר עם דף נחיתה בבקשה
 
-Source: https://-92c735e1.zappy5.app
+Source: https://example.com
 
 ---
 
 ## שמאי רכוש מוסמך בישראל — שמעון מישייב שמאות רכוש,עד מומחה לב
 
-URL: https://-92c735e1.zappy5.app
+URL: https://example.com
 Description: אני מעוניין להקים אתר עם דף נחיתה בבקשה
 
 שמאי רכוש מוסמך בישראל — שמעון מישייב שמאות רכוש,עד מומחה לב
@@ -713,7 +713,7 @@ Description: אני מעוניין להקים אתר עם דף נחיתה בבק
 
 ## מדיניות פרטיות
 
-URL: https://-92c735e1.zappy5.app/privacy
+URL: https://example.com/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -976,7 +976,7 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 ## הצהרת נגישות
 
-URL: https://-92c735e1.zappy5.app/accessibility
+URL: https://example.com/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -1248,7 +1248,7 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 ## תנאי שימוש
 
-URL: https://-92c735e1.zappy5.app/terms
+URL: https://example.com/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
