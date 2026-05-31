@@ -1,0 +1,69 @@
+# שמעון מישייב שמאות רכוש,עד מומחה לבית משפט,סוקר סיכונים,מאתר נזילות — Generative Engine Optimization Map
+
+> אני מעוניין להקים אתר עם דף נחיתה בבקשה
+
+---
+
+## Pages
+
+### בית
+https://-92c735e1.zappy5.app
+אני מעוניין להקים אתר עם דף נחיתה בבקשה
+
+## Legal & Policy
+
+### Privacy Policy
+https://-92c735e1.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-92c735e1.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-92c735e1.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://-92c735e1.zappy5.app
+- Endpoint: https://-92c735e1.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About שמעון מישייב שמאות רכוש,עד מומחה לבית משפט,סוקר סיכונים,מאתר נזילות
+אני מעוניין להקים אתר עם דף נחיתה בבקשה
+
+## Target Audience
+- חברות ביטוח
+- יזמי נדל"ן
+- חברות בנייה
+- מומחים משפטיים
+- בעלי נכסים פרטיים
+- רשויות מקומיות
+
+## Industry
+General
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-92c735e1.zappy5.app/sitemap.xml
+- Robots: https://-92c735e1.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-92c735e1.zappy5.app/llms-full.txt
